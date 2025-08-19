@@ -49,17 +49,7 @@ body {
 }
 
 /* ===== Logo + Title (Calendar Page Only) ===== */
-.container::before {
-  content: "";
-  display: block;
-  height: 150px;
-  background-color: white;
-  background-image: url("./assets/download.png");
-  background-repeat: no-repeat;
-  background-position: center 10px;
-  background-size: contain;
-  margin-bottom: 0;
-}
+
 
 .container::after {
   content: "© 2025 Seminar Hall Booking System";
